@@ -1,0 +1,9 @@
+The problem statement says “Can you figure out who the trend setters are and who found the best waffle joint before waffles were cool? 
+How much influence does my social circle have on my business choices and my ratings? 
+Social graph mining is a kind of social network analysis where the main purpose of analyzing the data is towards
+finding out which user is influencing your decisions regarding choosing a business service or how many users are influenced by you in choosing the same. 
+To give an overview of what our project will be doing in terms of social graph mining, we can  say that we need to check the user and 
+their friend list (get the friend data from yelp user object) and find all the places that a person’s social circle is interested in. 
+Did they rate the business almost similarly or how much was the difference between their ratings? We need to do a particular set of 
+calculations (form a similarity matrix) between the friends to find similarity between users. If a pair of users are similar, 
+then we can say that the user’s choice has been influenced by a member of his social circle
